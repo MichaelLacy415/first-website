@@ -1,0 +1,71 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.topnav a:hover {
+    background-color: #111;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(0, 191, 255);
+    text-align: center;
+    margin: 0 0;
+    height: 150px;
+    background-image: url(https://media.gettyimages.com/id/52444516/photo/a-hydrogen-fuel-cell-bus-is-seen-in-operation-at-cottesloe-on-march-17-2005-in-perth-australia.jpg?s=612x612&w=0&k=20&c=RNxoVfaGLU8qQ7SNony7S9uldaJY-RaYXOZh5BqbdJY=);
+    background-size: contain;
+
+}
+
+p {
+    display: block;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    align-items: center;
+    margin: 0 150px;
+    background-color: lightgrey;
+}
+
+h2 {
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(https://media.gettyimages.com/id/1364390711/photo/image-of-hydrogen-power-generation.jpg?s=612x612&w=0&k=20&c=AeB0ol5eOBM0Gk40oZb2enBZ-4myFU0mhhoZJqztipk=);
+    background-size: cover;
+}
+
+ol {
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
